@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.menubar {
+    overflow: hidden;
+    background-color: #34569c;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60%;
+    float: left;
+    margin-top: 7px;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 35px;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+}
+
+.logo h1 a {
+    font-size: 35px;
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    width: 40%;
+    float: left;
+}
+
+.login label {
+    font-size: 12px;
+    color: white;
+    margin: 0 125px 3px 0px;
+    float: left;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 40%;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.login input[type="submit"] {
+    background: #5f78ad;
+    padding: 2px 4px;
+    font-size: 13px;
+    color: white;
+    border: 0;
+}
+
+.login a {
+    color: #b5c1e8;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.mainpart {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff4f4+0,ddeef9+35,a1d0ef+100 */
+    background: #fff4f4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fff4f4 0%, #ddeef9 35%, #a1d0ef 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fff4f4 0%, #ddeef9 35%, #a1d0ef 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fff4f4 0%, #ddeef9 35%, #a1d0ef 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fff4f4', endColorstr='#a1d0ef', GradientType=0);
+    /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh
+}
+
+.left {
+    width: 46%;
+    float: left;
+    padding: 34px 41px;
+}
+
+.left p {
+    font-size: 24px;
+    text-align: left;
+    color: #0E3890;
+    font-weight: 700;
+    font-family: arial;
+    margin-left: 56px;
+}
+
+.left img {
+    padding: 30px 107px;
+}
+
+.right {
+    width: 30%;
+    float: left;
+    padding-top: 32px;
+    padding-left: 30px;
+}
+
+.right h1 {
+    font-family: arial;
+}
+
+.right p {
+    font-weight: 700;
+    text-align: justify;
+    padding: 5px;
+    color: grey;
+    font-size: 14px;
+}
+
+.right span {
+    float: right;
+    font-size: 12px;
+    color: #6658AE;
+}
+
+.language {
+    width: 90%;
+    margin: 11px auto;
+}
+
+.language a {
+    padding: 11px;
+}
+
+hr {
+    width: 84%;
+    margin-left: 76px;
+    color: #64696d;
+}
+
+.links {
+    width: 92%;
+    margin: 5px auto;
+}
+
+.links a {
+    padding: 52px 10px;
+    margin: 23px 8px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer {
+    width: 76%;
+    /* margin-left: -256px; */
+}
+
+.footer p {
+    /* margin: 0px; */
+    margin-left: -259px;
+    padding-left: 334px;
+    /* padding-top: 50px; */
+    font-size: 13px;
+    color: #4f565d;
+}
+
+.right form p {
+    border-radius: 5px;
+    color: black;
+    padding: 0px;
+    width: 100%;
+}
+
+.right input[type="password"],
+.right input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.right input[type="submit"] {
+    background: #6BA656;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 10px 26px;
+    /* border-bottom: 5px; */
+    color: #fff;
+    width: 56%;
+    font-size: 19px;
+    margin-top: 6px;
+    /* border-style: double; */
+    box-shadow: 1px 5px 0 #a9d4f0;
+}
+
+.registration-form input[type="submit"]:focus {
+    box-shadow: 0px 0 0 #203a20;
+}
+
+.registration-form input:focus {
+    outline: none;
+}
+
+.login input[type="submit"] {
+    color: white;
+    background: #5f87d4;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    margin-right: 10px;
+}
